@@ -4,4 +4,4 @@
 #	Run node app
 #
 cd /app
-exec s6-setuidgid $CONTAINER_USER $NPM_RUN_CMD
+exec s6-setuidgid $CONTAINER_USER $NODE_RUN_CMD

@@ -31,7 +31,7 @@ LABEL maintainer="martin.dagarin@gmail.com" \
 #
 #	Environment variables
 #
-ENV NPM_RUN_CMD="npm run start"
+ENV NODE_RUN_CMD="npm run start"
 
 #
 #	Add local files to image
