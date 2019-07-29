@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+#
+#	Run node app
+#
+cd /app
+exec s6-setuidgid $CONTAINER_USER $NPM_RUN_CMD
