@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bash
 
+source $CONTAINER_VARS_FILE
+
 #
 #	Install npm packages
 #
@@ -9,5 +11,5 @@ if [ -d "/app/node_modules" ]; then
 fi
 
 cd /app
-npm install
-chown -R $CONTAINER_USER:$CONTAINER_USER /app/node_modules
+$RUNCMD npm install
+
