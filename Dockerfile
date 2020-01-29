@@ -2,7 +2,7 @@
 #	Base image
 #	@see https://github.com/SloCompTech/docker-baseimage
 #
-FROM slocomptech/baseimage:node
+FROM slocomptech/bi-node:10
 
 #
 #	Arguments
